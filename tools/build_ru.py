@@ -22,7 +22,7 @@ for s in W['stations']:
     mins = MINUTES.get(s['id'], 4)
     for k in ('title', 'place', 'leg', 'stand', 'story', 'fact', 'time'):
         if k in ru: s[k] = ru[k]
-    s['audioLabel'] = ru['audioLabel'].replace('{m}', str(mins))
+    s['audioLabel'] = ru['audioLabel'].replace('{m}', str(mins)) if s['id'] in MINUTES else ru['audioLabel'].split(' · ')[0] + ' · скоро появится'
     s['captions'] = ru['captions']; s['quiz'] = ru['quiz']
     s['then']['credit'] = ru['then']
     for m, cr in zip(s.get('more', []), ru.get('more', [])): m['credit'] = cr
