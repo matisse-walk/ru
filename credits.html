@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<title>Кто это сделал</title>
+<meta name="description" content="Кто и что сделало «Монпарнас Матисса»: идея, руководство, голоса, рисунки, картины, карта, источники.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Source+Sans+3:wght@400;700&family=Neucha&display=swap&subset=cyrillic">
+<link rel="stylesheet" href="style.css">
+<script src="lightbox.js" defer></script>
+<style>:root { --accent: #141414; } .roles { display: grid; gap: 14px; } .role { border-left: 8px solid var(--cobalt); padding: 10px 14px; background: var(--paper-2); display: grid; gap: 4px; } .role.v { border-color: var(--vermilion); } .role.y { border-color: var(--lemon); } .role.g { border-color: var(--leaf); } .role b { font-family: var(--display); font-size: 1.15rem; } .role p { font-size: .98rem; } .pics { font-size: .86rem; columns: 2; column-gap: 16px; } .pics div { break-inside: avoid; margin-bottom: 8px; } @media (max-width: 599px) { .pics { columns: 1; } }</style>
+</head>
+<body>
+<header class="band"><div class="in"><div class="eyebrow" style="color:inherit;opacity:.85">Кто это сделал</div><h1>Кто и что сделало эту прогулку</h1><p class="meta">Монпарнас Матисса · Париж, 21 октября 2026 · русская версия</p></div></header>
+<main class="wrap page">
+  <div class="roles">
+    <div class="role"><b>Андрей Садовых</b><p>Первоначальная идея и концепция, дизайн и руководство продуктом, проверка содержания, проводник прогулки. Каждое решение о том, что это за прогулка, что в ней говорится и как она выглядит; каждый факт сверен с источниками, прежде чем попал сюда.</p></div>
+    <div class="role v"><b>Исследование, тексты, код и задания</b><p>Написано вместе с Claude (Anthropic) под руководством Андрея: историческое исследование с источниками, тексты остановок и подписи, задания для рассказов и рисунков, сайт и карта. Русская версия написана для детей на основе тех же проверенных фактов. Тексты — CC BY 4.0.</p></div>
+    <div class="role y"><b>Голоса</b><p>Рассказы сгенерированы в Google NotebookLM по нашим проверенным заметкам на русском языке и прослушаны. Заметки — главный источник, а не записи.</p></div>
+    <div class="role g"><b>Рисунки</b><p>Восемь комиксов нарисованы в Google Gemini в стиле вырезанной бумаги по нашим сценариям; подписи наши. Никто из реальных людей на них не изображён.</p></div>
+    <div class="role"><b>Карта</b><p>Данные карты © участники OpenStreetMap (ODbL); векторные плитки OpenFreeMap; рисует MapLibre GL JS. Маршруты измерены по пешеходной сети OpenStreetMap.</p></div>
+    <div class="role v"><b>Источники</b><p>Записи музеев и архивов (Центр Помпиду, SFMOMA, MoMA, музей Родена, Эрмитаж, Музей Ван Гога, музей Матисса, Национальная библиотека Франции, Paris Musées), биография Матисса, написанная Хилари Сперлинг, Общество истории 7-го округа, а для Люксембургского сада — часы работы Сената. Что не удалось подтвердить, мы не включали или отмечали словами «рассказывают».</p></div>
+    <div class="role y"><b>Шрифты</b><p>Playfair Display, Source Sans 3 и Neucha, Google Fonts.</p></div>
+  </div>
+  <h2>Картины</h2>
+  <p class="credit">Все произведения — общественное достояние во Франции и в ЕС (авторы умерли более 70 лет назад; Матисс — с 1 января 2025). У фотографий под лицензией Creative Commons указан фотограф. Каждая картинка сайта перечислена здесь вместе с лицензией.</p>
+  <div class="pics" id="pics">загрузка…</div>
+  <nav class="next"><a class="btn alt" href="index.html">Назад к карте</a><a class="btn" href="https://matisse-walk.github.io/">English version</a></nav>
+</main>
+<footer>Прогулка для проекта MATISSE. Идея, концепция и проверка: Андрей Садовых.</footer>
+<script>
+fetch('art/credits.json').then(r => r.json()).then(j => {
+  const esc = s => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;');
+  document.getElementById('pics').innerHTML = (j.saved || j).map(c => `<div><b>${esc(c.title || c.slug)}</b> — ${esc(c.artist || c.photographer_or_uploader_credit || '')}${c.date ? ', ' + esc(c.date) : ''}${c.collection ? '. ' + esc(c.collection) : ''}. ${esc(c.licence || '')}${c.commons_url ? ` · <a href="${c.commons_url}">источник</a>` : ''}</div>`).join('');
+}).catch(() => { document.getElementById('pics').textContent = 'Список — в файле art/credits.json.'; });
+</script>
+</body>
+</html>

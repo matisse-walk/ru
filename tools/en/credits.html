@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<title>Credits</title>
+<meta name="description" content="Who and what made Matisse's Montparnasse: idea, direction, voices, drawings, pictures, map, sources.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&family=Karla:wght@400;700&family=Patrick+Hand&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="lightbox.js" defer></script>
+<script src="content.js"></script>
+<style>:root { --accent: #141414; } .roles { display: grid; gap: 14px; } .role { border-left: 8px solid var(--cobalt); padding: 10px 14px; background: var(--paper-2); display: grid; gap: 4px; } .role.v { border-color: var(--vermilion); } .role.y { border-color: var(--lemon); } .role.g { border-color: var(--leaf); } .role b { font-family: var(--display); font-size: 1.15rem; } .role p { font-size: .98rem; } .pics { font-size: .86rem; columns: 2; column-gap: 16px; } .pics div { break-inside: avoid; margin-bottom: 8px; } @media (max-width: 599px) { .pics { columns: 1; } }</style>
+</head>
+<body>
+<header class="band"><div class="in"><div class="eyebrow" style="color:inherit;opacity:.85">Credits</div><h1>Who and what made this walk</h1><p class="meta">Matisse's Montparnasse · Paris, 21 October 2026</p></div></header>
+<main class="wrap page">
+  <div class="roles">
+    <div class="role"><b>Andrey Sadovykh</b><p>Original idea and concept, product design and direction, content validation, guide of the walk. Every decision about what the walk is, what it says and how it looks; every fact read against the sources before it went in.</p></div>
+    <div class="role v"><b>Research, texts, code and briefs</b><p>Written with Claude (Anthropic) under Andrey's direction: the historical research with its sources, the station texts and captions, the episode and drawing briefs, the website, the map rendering and the booklet. Texts CC BY 4.0.</p></div>
+    <div class="role y"><b>Voices</b><p>The eight audio episodes were generated with Google NotebookLM from our fact-checked notes and transcribed and checked line by line. The notes are the reference, not the recordings.</p></div>
+    <div class="role g"><b>Drawings</b><p>The eight comic pages were drawn with Google Gemini in a paper-cut style from our panel-by-panel scripts; the captions are ours. No real person is depicted.</p></div>
+    <div class="role"><b>Map</b><p>Map data © OpenStreetMap contributors (ODbL); vector tiles by OpenFreeMap; rendered with MapLibre GL JS. Routes measured on OpenStreetMap's pedestrian network. Poster maps drawn from the same data.</p></div>
+    <div class="role v"><b>Sources</b><p>Museum and archive records (Centre Pompidou, SFMOMA, MoMA, Musée Rodin, Hermitage, Van Gogh Museum, Musée Matisse, Bibliothèque nationale de France, Paris Musées), Hilary Spurling's biography of Matisse, the Société d'histoire du 7e arrondissement, Wikipedia in several languages as a last resort, and the opening hours of the Sénat for the Luxembourg garden. Anything we could not source was left out or marked "the story goes".</p></div>
+    <div class="role y"><b>Type</b><p>Fraunces, Karla and Patrick Hand, from Google Fonts.</p></div>
+  </div>
+  <h2>Pictures</h2>
+  <p class="credit">All artworks are in the public domain in France and the EU (artists dead more than 70 years; Matisse since 1 January 2025). Photographs under a Creative Commons licence carry their photographer's name. Every image on the site and in the booklet is listed here with its licence.</p>
+  <div class="pics" id="pics">loading…</div>
+  <nav class="next"><a class="btn alt" href="index.html">Back to the map</a><a class="btn" href="booklet/matisse-montparnasse.pdf">The booklet (PDF)</a></nav>
+</main>
+<footer>A walk for the MATISSE project. Concept, direction and validation: Andrey Sadovykh.</footer>
+<script>
+fetch('art/credits.json').then(r => r.json()).then(j => {
+  const esc = s => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;');
+  document.getElementById('pics').innerHTML = (j.saved || j).map(c => `<div><b>${esc(c.title || c.slug)}</b> — ${esc(c.artist || c.photographer_or_uploader_credit || '')}${c.date ? ', ' + esc(c.date) : ''}${c.collection ? '. ' + esc(c.collection) : ''}. ${esc(c.licence || '')}${c.commons_url ? ` · <a href="${c.commons_url}">source</a>` : ''}</div>`).join('');
+}).catch(() => { document.getElementById('pics').textContent = 'The list is in art/credits.json.'; });
+</script>
+</body>
+</html>

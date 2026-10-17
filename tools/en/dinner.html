@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<title>The dinner quiz</title>
+<meta name="description" content="Six questions from the walk, for the tables at dinner.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&family=Karla:wght@400;700&family=Patrick+Hand&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="lightbox.js" defer></script>
+<style>:root { --accent: #E63312; } .qs { display: grid; gap: 12px; } .lock { border: 3px dashed var(--ink-soft); padding: 12px 14px; color: var(--ink-soft); } .scissors { font-family: var(--hand); font-size: 1.2rem; }</style>
+<script src="content.js"></script>
+</head>
+<body>
+<header class="band"><div class="in"><div class="eyebrow" style="color:inherit;opacity:.85">Dinner</div><h1>The quiz, by table</h1><p class="meta">Six questions from the walk. Answers hide under each question; agree at the table first.</p></div></header>
+<main class="wrap page">
+  <div class="lock" id="lock">Open each stop's strip to the last panel to collect its sticker. Five stickers unlock the answers here.</div>
+  <div class="qs" id="qs"></div>
+  <h2>Draw with scissors</h2>
+  <p class="scissors">An idea for another evening, when there are enough scissors to go round: coloured paper on every table, ten minutes, one cut-out per table, no pencils, vote by applause. Pin the winner on the wall, over a stain if you can find one.</p>
+  <nav class="next"><a class="btn alt" href="index.html">Back to the map</a></nav>
+</main>
+<footer>A walk for the MATISSE project. Concept, direction and validation: Andrey Sadovykh. <a href="credits.html">Credits</a>.</footer>
+<script>
+(function(){
+  var got = []; try { got = JSON.parse(localStorage.getItem('mm.stickers.v2') || '[]'); } catch (e) {}
+  var main = ['gauguin','canteen','station','vavin','door']; var n = main.filter(function(id){ return got.indexOf(id) >= 0; }).length;
+  var open = n >= 5; var lock = document.getElementById('lock');
+  lock.textContent = open ? 'All five stickers collected. Answers are open.' : lock.textContent + ' You have ' + n + ' of 5.';
+  document.getElementById('qs').innerHTML = WALK.dinner.map(function(d, i){
+    return '<details class="quiz"><summary>' + (i+1) + ' · ' + d.q + '</summary><p>' + (open ? d.a : 'Collect all five stickers to see the answer.') + '</p></details>';
+  }).join('');
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<title>Викторина за ужином</title>
+<meta name="description" content="Шесть вопросов о прогулке, для столов за ужином.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Source+Sans+3:wght@400;700&family=Neucha&display=swap&subset=cyrillic">
+<link rel="stylesheet" href="style.css">
+<script src="lightbox.js" defer></script>
+<style>:root { --accent: #E63312; } .qs { display: grid; gap: 12px; } .lock { border: 3px dashed var(--ink-soft); padding: 12px 14px; color: var(--ink-soft); } .scissors { font-family: var(--hand); font-size: 1.2rem; }</style>
+<script src="content.js"></script>
+</head>
+<body>
+<header class="band"><div class="in"><div class="eyebrow" style="color:inherit;opacity:.85">Ужин</div><h1>Викторина по столам</h1><p class="meta">Шесть вопросов о прогулке. Ответ спрятан под каждым вопросом: сначала договоритесь за столом.</p></div></header>
+<main class="wrap page">
+  <div class="lock" id="lock">Дочитай комикс на каждой остановке до последней картинки, чтобы получить наклейку. Пять наклеек открывают ответы.</div>
+  <div class="qs" id="qs"></div>
+  <h2>Рисуем ножницами</h2>
+  <p class="scissors">Идея для другого вечера, когда хватит ножниц на всех: цветная бумага на каждом столе, десять минут, одна вырезка на стол, никаких карандашей. Выбираем лучшую аплодисментами и прикалываем на стену, лучше всего на пятно.</p>
+  <nav class="next"><a class="btn alt" href="index.html">Назад к карте</a></nav>
+</main>
+<footer>Прогулка для проекта MATISSE. Идея, концепция и проверка: Андрей Садовых. <a href="credits.html">Кто это сделал</a>.</footer>
+<script>
+(function(){
+  var got = []; try { got = JSON.parse(localStorage.getItem('mm.stickers.ru') || '[]'); } catch (e) {}
+  var main = ['gauguin','canteen','station','vavin','door']; var n = main.filter(function(id){ return got.indexOf(id) >= 0; }).length;
+  var open = n >= 5; var lock = document.getElementById('lock');
+  lock.textContent = open ? 'Все пять наклеек собраны. Ответы открыты.' : lock.textContent + ' У тебя ' + n + ' из 5.';
+  document.getElementById('qs').innerHTML = WALK.dinner.map(function(d, i){
+    return '<details class="quiz"><summary>' + (i+1) + ' · ' + d.q + '</summary><p>' + (open ? d.a : 'Собери все пять наклеек, чтобы увидеть ответ.') + '</p></details>';
+  }).join('');
+})();
+</script>
+</body>
+</html>

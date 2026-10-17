@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<title>Matisse's Montparnasse</title>
+<meta name="description" content="A walk through the Paris of Henri Matisse and his friends, as a comic book you walk through. Montparnasse, 21 October 2026.">
+<meta name="theme-color" content="#FAF6EE">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&family=Karla:wght@400;700&family=Patrick+Hand&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.css">
+<link rel="stylesheet" href="app.css?v=202610171828">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.js"></script>
+<script src="content.js?v=202610171828"></script>
+<script src="lightbox.js?v=202610171828" defer></script>
+<script src="app.js?v=202610171828" defer></script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="st-house" viewBox="0 0 64 64"><path fill="#F5C518" d="M8 30 32 8l24 22v26H8z"/><path fill="#141414" d="M26 56V38h12v18z"/><path fill="#E63312" d="M4 32 32 6l28 26-4 4-24-22L8 36z"/></symbol>
+    <symbol id="st-window" viewBox="0 0 64 64"><rect x="10" y="6" width="44" height="52" fill="#F5C518"/><rect x="16" y="12" width="14" height="18" fill="#1F3A93"/><rect x="34" y="12" width="14" height="18" fill="#1F3A93"/><rect x="16" y="34" width="14" height="18" fill="#1F3A93"/><rect x="34" y="34" width="14" height="18" fill="#1F3A93"/><path fill="#FAF6EE" d="M18 40c4-6 8-6 12 0-4 2-8 2-12 0z"/></symbol>
+    <symbol id="st-bowl" viewBox="0 0 64 64"><path fill="#E63312" d="M6 28h52c0 16-10 26-26 26S6 44 6 28z"/><path fill="#FAF6EE" d="M10 28h44c-2 4-8 6-22 6S12 32 10 28z"/><path fill="#141414" d="M24 8c-4 6 4 8 0 14M34 6c-4 6 4 8 0 14" stroke="#141414" stroke-width="3" fill="none" stroke-linecap="round"/></symbol>
+    <symbol id="st-hat" viewBox="0 0 64 64"><path fill="#1F3A93" d="M18 12h28v26H18z"/><path fill="#141414" d="M6 38h52v8H6z"/><path fill="#E63312" d="M18 30h28v8H18z"/><path fill="#2E7D4F" d="M40 24c6-8 14-6 16 2-6-2-10 0-16-2z"/></symbol>
+    <symbol id="st-dove" viewBox="0 0 64 64"><path fill="#FAF6EE" stroke="#141414" stroke-width="3" d="M10 36c10-14 26-14 34-6l10-4-6 10c-2 10-12 18-26 16-6-1-10-6-12-16z"/><path fill="#1F3A93" d="M22 30c8-12 20-12 26-2-10-2-18 0-26 2z"/><path fill="#E63312" d="M52 28l8-2-6 6z"/></symbol>
+    <symbol id="st-swallow" viewBox="0 0 64 64"><path fill="#141414" d="M4 30c14-10 26-10 34-2 4-6 10-10 22-10-8 4-12 10-12 16l12 18-16-10c-6 8-16 10-26 6 8-2 14-8 14-14C24 36 14 36 4 30z"/><path fill="#E63312" d="M40 24l6-3-2 6z"/></symbol>
+    <symbol id="st-frame" viewBox="0 0 64 64"><rect x="8" y="8" width="48" height="48" fill="#F5C518" stroke="#141414" stroke-width="4"/><path fill="#E63312" d="M16 46l10-16 8 10 6-6 8 12z"/><circle cx="42" cy="20" r="5" fill="#1F3A93"/></symbol>
+    <symbol id="st-leaf" viewBox="0 0 64 64"><path fill="#2E7D4F" d="M10 54C10 26 30 10 56 10c0 26-16 46-46 44z"/><path fill="#FAF6EE" d="M14 50C22 36 34 26 50 16" stroke="#FAF6EE" stroke-width="3" fill="none"/></symbol>
+    <symbol id="st-cup" viewBox="0 0 64 64"><path fill="#FAF6EE" stroke="#141414" stroke-width="4" d="M12 24h34v12c0 10-7 16-17 16S12 46 12 36z"/><path fill="none" stroke="#141414" stroke-width="4" d="M46 28c8 0 10 4 10 8s-4 8-10 8"/><path fill="#141414" d="M8 54h44v4H8z"/><path fill="#E63312" d="M22 10c-3 4 3 6 0 10M30 8c-3 4 3 6 0 10" stroke="#E63312" stroke-width="3" stroke-linecap="round"/></symbol>
+    <symbol id="st-star" viewBox="0 0 64 64"><path fill="#F5C518" stroke="#141414" stroke-width="3" d="M32 6l7 17 18 2-13 12 4 18-16-9-16 9 4-18L7 25l18-2z"/><circle cx="32" cy="30" r="5" fill="#E63312"/></symbol>
+    <symbol id="st-eye" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3" fill="currentColor"/></symbol>
+  </defs>
+</svg>
+
+<header class="top" id="top">
+  <a class="brand" href="#" id="brand">Matisse's<br>Montparnasse</a>
+  <div class="album" id="album" aria-label="Stickers collected"></div>
+  <button class="menu" id="menuBtn" aria-expanded="false" aria-controls="menu">Menu</button>
+</header>
+<nav class="menupanel" id="menu" hidden>
+  <a href="#" data-open="0">Matisse in sixty seconds</a>
+  <a href="#" id="locateLink">Where am I?</a>
+  <a href="#" id="allParis">All of Matisse's Paris</a>
+  <a href="dinner.html">The dinner quiz</a>
+  <a href="reading.html">Reading version (no map)</a>
+  <a href="credits.html">Credits</a>
+  <a href="booklet/matisse-montparnasse.pdf">The booklet (PDF, 21 MB)</a>
+</nav>
+
+<div id="map" role="application" aria-label="Map of the walk"></div>
+
+<section class="cover" id="cover">
+  <div class="cover-in">
+    <svg class="cutout" viewBox="0 0 200 120" aria-hidden="true">
+      <path class="drift a" fill="#F5C518" d="M18 70c20-40 60-55 95-40-25 10-35 30-25 55-30 5-60-5-70-15z"/>
+      <path class="drift b" fill="#E63312" d="M120 20c30-10 60 10 62 40-20-10-40-5-50 15-10-20-15-40-12-55z"/>
+      <path class="drift c" fill="#2E7D4F" d="M60 95c15-8 35-6 50 6-15 6-35 8-50-6z"/>
+      <use href="#st-swallow" x="138" y="52" width="40" height="40"/>
+    </svg>
+    <p class="eyebrow">Wednesday 21 October 2026 · a comic book you walk through</p>
+    <h1>Matisse's<br>Montparnasse</h1>
+    <p class="lede">Five stops, five stories, ninety minutes. The map follows you; tap the sticker nearest you, press play, and read the strip as you stand there.</p>
+    <div class="buttons">
+      <button class="btn" id="startBtn">Open the map</button>
+      <button class="btn alt" data-open="0">Who was Matisse?</button>
+    </div>
+  </div>
+</section>
+
+<section class="sheet" id="sheet" aria-hidden="true">
+  <div class="card" id="card">
+    <div class="grip" id="grip"><span></span></div>
+    <header class="band"><div class="in">
+      <div class="num" id="sNum">4</div>
+      <div><h2 id="sTitle">Carrefour Vavin</h2><p class="meta" id="sMeta">18:33 · Balzac and the cafés</p></div>
+      <button class="close" id="closeBtn" aria-label="Close">×</button>
+    </div></header>
+
+    <div class="flip" id="flip">
+      <div class="face front">
+        <div class="cam" id="cam"><img id="camImg" alt=""></div>
+        <p class="caption" id="caption"></p>
+        <div class="camctl">
+          <button class="pill" id="prevP" aria-label="Previous panel">‹</button>
+          <span class="count" id="count">1 / 6</span>
+          <button class="pill" id="nextP" aria-label="Next panel">›</button>
+          <button class="pill eye" id="lookBtn" aria-pressed="false"><svg width="18" height="18"><use href="#st-eye"/></svg> Look up</button>
+        </div>
+      </div>
+      <div class="face back">
+        <div class="thennow" id="thennow">
+          <img id="thenImg" alt="">
+          <div class="nowwrap" id="nowWrap" hidden><img id="nowImg" alt=""></div>
+          <input type="range" id="slider" min="0" max="100" value="50" aria-label="Then and now" hidden>
+        </div>
+        <p class="credit" id="thenCredit"></p>
+        <div class="more" id="more"></div>
+        <button class="pill" id="backBtn">‹ Back to the strip</button>
+      </div>
+    </div>
+
+    <div class="player">
+      <button class="play" id="playBtn" aria-label="Play">▶</button>
+      <div class="pinfo"><div class="plabel" id="pLabel">Listen</div><div class="ptime" id="pTime">0:00</div></div>
+      <button class="pill" id="skipBtn" aria-label="Skip 15 seconds">+15</button>
+      <audio id="audio" preload="none"></audio>
+    </div>
+
+    <div class="text">
+      <p class="stand" id="sStand"></p>
+      <p class="story" id="sStory"></p>
+      <div class="fact"><span class="eyebrow">Fun fact</span><p id="sFact"></p></div>
+      <details class="quiz"><summary id="sQ"></summary><p id="sA"></p></details>
+    </div>
+    <nav class="snav">
+      <button class="btn alt" id="prevS">‹ Previous</button>
+      <button class="btn" id="nextS">Next stop ›</button>
+    </nav>
+  </div>
+</section>
+
+<div class="toast" id="toast" hidden></div>
+<svg class="flyer" id="flyer" viewBox="0 0 64 64" aria-hidden="true" hidden><use href="#st-swallow"/></svg>
+</body>
+</html>

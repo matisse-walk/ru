@@ -1,0 +1,125 @@
+/* Matisse's Montparnasse — one stylesheet for every page.
+   Layout: one column of running text (≤ 68ch) on cream paper; each stop opens with a full-width
+   colour band in its own Jazz colour; artworks sit on white mats; the comic strip carries HTML
+   captions laid over its six panels. Type: Fraunces (soft 1920s–40s display, like the
+   hand-cut titles of Jazz) + Karla (plain humanist sans) + Patrick Hand for strip captions. */
+
+:root {
+  --paper: #FAF6EE;        /* cream ground */
+  --paper-2: #EFE8D6;      /* a shade deeper, for panels */
+  --ink: #141414;
+  --ink-soft: #4A463F;     /* warm grey for captions */
+  --cobalt: #1F3A93;
+  --vermilion: #E63312;
+  --lemon: #F5C518;
+  --leaf: #2E7D4F;
+  --mat: #FFFFFF;          /* artwork mats */
+  --accent: var(--cobalt); /* overridden per stop */
+  --accent-ink: #FAF6EE;   /* text on the accent band */
+  --display: "Playfair Display", Georgia, serif;
+  --body: "Source Sans 3", "Segoe UI", Helvetica, Arial, sans-serif;
+  --hand: "Neucha", "Segoe Print", cursive;
+  --gutter-l: max(16px, env(safe-area-inset-left, 0px));
+  --gutter-r: max(16px, env(safe-area-inset-right, 0px));
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #111a3d; --paper-2: #1b2a63; --ink: #FAF6EE; --ink-soft: #D9D2C2; --mat: #FAF6EE;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #111a3d; --paper-2: #1b2a63; --ink: #FAF6EE; --ink-soft: #D9D2C2; --mat: #FAF6EE;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font-family: var(--body); font-size: 1.125rem; line-height: 1.5;
+  font-variant-numeric: tabular-nums;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: inherit; }
+h1, h2, h3 { font-family: var(--display); font-weight: 900; line-height: 1.02; text-wrap: balance; margin: 0; }
+h2 { font-size: 1.6rem; margin-block: 36px 12px; }
+p { margin: 0; }
+:focus-visible { outline: 3px solid var(--lemon); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+/* page frame: gutters once, on the wrapper; bands use their inner wrapper */
+.wrap { max-width: 720px; margin: 0 auto; padding-inline: var(--gutter-l) var(--gutter-r); padding-block: 0 112px; display: grid; gap: 18px; }
+.band { background: var(--accent); color: var(--accent-ink); }
+.band .in { max-width: 720px; margin: 0 auto; padding-inline: var(--gutter-l) var(--gutter-r); padding-block: 22px 26px; display: grid; gap: 4px; }
+.band .num { font-family: var(--display); font-weight: 900; font-size: 3.2rem; line-height: .9; }
+.band h1 { font-size: clamp(1.9rem, 7.5vw, 2.6rem); }
+.band .meta { font-size: .95rem; opacity: .92; letter-spacing: .01em; }
+.eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: .78rem; font-weight: 700; color: var(--ink-soft); }
+
+/* cover */
+.cover { min-height: 80vh; display: grid; align-content: center; gap: 20px; max-width: 720px; margin: 0 auto; padding-inline: var(--gutter-l) var(--gutter-r); padding-block: 32px; }
+.cutout { width: min(78vw, 360px); height: auto; }
+.cover h1 { font-size: clamp(2.6rem, 11vw, 4.6rem); }
+.lede { font-size: 1.2rem; max-width: 36ch; }
+.buttons { display: flex; gap: 12px; flex-wrap: wrap; }
+.btn { display: inline-block; padding: 14px 22px; border: 3px solid var(--ink); background: var(--lemon); color: #141414; font-weight: 700; text-decoration: none; border-radius: 3px; font-size: 1rem; }
+.btn.alt { background: transparent; color: var(--ink); }
+
+/* artworks: white mat, thin black frame, credit below */
+.hero { background: var(--mat); border: 3px solid #141414; padding: 8px; display: grid; gap: 6px; margin: 0; }
+.hero figcaption, .credit { font-size: .82rem; line-height: 1.35; color: var(--ink-soft); }
+.hero figcaption { color: #4A463F; } /* on the white mat, always dark */
+.stand { font-weight: 700; }
+
+/* audio: the one big control, sticky at the bottom */
+.player { position: sticky; bottom: 0; z-index: 5; background: var(--paper-2); border-top: 3px solid var(--ink); margin-inline: calc(-1 * var(--gutter-l)) calc(-1 * var(--gutter-r)); padding-inline: var(--gutter-l) var(--gutter-r); padding-block: 10px calc(12px + env(safe-area-inset-bottom, 0px)); display: grid; gap: 6px; }
+.player .label { font-weight: 700; font-size: .95rem; }
+.player audio { width: 100%; }
+
+.story { font-size: 1.125rem; max-width: 68ch; display: grid; gap: .7em; }
+.fact { border-left: 8px solid var(--vermilion); background: var(--paper-2); padding: 12px 14px; display: grid; gap: 4px; }
+.fact .eyebrow { color: var(--vermilion); }
+details.quiz { border: 3px solid var(--ink); padding: 10px 14px; background: var(--lemon); color: #141414; }
+details.quiz summary { cursor: pointer; font-weight: 700; }
+details.quiz p { margin-top: 8px; }
+
+/* the strip: image + six captions laid over the panels (2 columns × 3 rows) */
+.strip { position: relative; margin: 0; border: 3px solid #141414; background: #FAF6EE; }
+.strip img { width: 100%; }
+.cap { color: #141414; font-family: var(--hand); line-height: 1.2; }
+.cap b { font-family: var(--display); font-weight: 900; margin-right: 5px; }
+.cap q { font-style: italic; }
+.cap q::before, .cap q::after { content: '"'; }
+/* phones: the drawing stays clear; captions sit under it in the same 2 × 3 order as the panels */
+@media (max-width: 599px) {
+  .strip { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 8px; padding: 0 6px 8px; }
+  .strip img { grid-column: 1 / -1; margin: 0 -6px; width: calc(100% + 12px); max-width: none; }
+  .cap { font-size: .95rem; }
+}
+/* wider screens: captions over the panels, translucent so the panel shows through */
+@media (min-width: 600px) {
+  .cap { position: absolute; width: 44.5%; background: rgba(250,246,238,.82); border: 2px solid #141414; padding: 3px 6px 4px; font-size: 1.05rem; backdrop-filter: blur(2px); }
+  .cap.l { left: 3.2%; } .cap.r { left: 52.3%; }
+  .cap.t1 { top: 2%; } .cap.t2 { top: 35%; } .cap.t3 { top: 68%; }
+}
+
+nav.next { display: flex; gap: 12px; justify-content: space-between; flex-wrap: wrap; }
+footer { max-width: 720px; margin: 0 auto; padding-inline: var(--gutter-l) var(--gutter-r); padding-block: 24px; font-size: .82rem; color: var(--ink-soft); }
+
+@media print {
+  .player, nav.next, .btn { display: none; }
+  body { background: #fff; color: #000; }
+  .band { background: none; color: #000; border-bottom: 3px solid #000; }
+  .page { page-break-after: always; }
+}
+
+/* full-screen picture viewer (reading pages) */
+.lightbox { position: fixed; inset: 0; z-index: 60; background: rgba(20,20,20,.94); display: grid; grid-template-rows: 1fr auto; align-items: center; justify-items: center; touch-action: pinch-zoom; }
+.lightbox img { max-width: 100vw; max-height: calc(100vh - 56px); width: auto; height: auto; object-fit: contain; touch-action: pinch-zoom; cursor: zoom-out; }
+.lightbox .lb-credit { color: #FAF6EE; font-size: .85rem; padding: 8px 16px 12px; text-align: center; max-width: 70ch; margin: 0; }
+.lightbox .lb-close { position: fixed; top: 10px; right: 12px; width: 40px; height: 40px; border: 2px solid #FAF6EE; background: #141414; color: #FAF6EE; font-size: 1.5rem; line-height: 1; cursor: pointer; }
+.lb-open { overflow: hidden; }
+.hero img, .icons img, .strip img { cursor: zoom-in; }
+[hidden] { display: none !important; }

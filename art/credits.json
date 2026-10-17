@@ -1,0 +1,1029 @@
+{
+ "_about": "Image credits for matisse-walk.github.io. All files fetched from Wikimedia Commons on 2026-10-16 via Special:FilePath?width=1600, converted to JPEG q85, max 1600 px. 'licence' records the exact licence template(s) found in the Commons file-page wikitext (and the API LicenseShortName). Public-domain status is EU (life + 70) unless noted; Matisse (d. 1954) is PD in the EU since 1 Jan 2025 but not in the US for works first published after 1930. Moral rights are perpetual in France: always credit the artist and do not crop or distort degradingly.",
+ "images": [
+  {
+   "slug": "matisse-self-portrait-1906",
+   "file": "matisse-self-portrait-1906.jpg",
+   "px": [
+    1344,
+    1600
+   ],
+   "title": "Self-Portrait in a Striped T-shirt (Autoportrait)",
+   "artist": "Henri Matisse",
+   "date": "1906",
+   "collection": "Statens Museum for Kunst (SMK), Copenhagen, KMSr78 (Johannes Rump collection)",
+   "licence": "Public domain — {{PD-art|PD-old-auto-expired|deathyear=1954}}",
+   "commons_file": "Autoportrait, par Henri Matisse.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Autoportrait,_par_Henri_Matisse.jpg",
+   "photographer_or_uploader_credit": "SMK Open (IIIF), uploaded for Public Domain Day 2025",
+   "notes": "Chosen over the older 588 px upload 'Henri Matisse Self-Portrait in a Striped T-shirt (1906).jpg' (same licence, PD-Art|PD-old-auto-1923)."
+  },
+  {
+   "slug": "woman-with-a-hat",
+   "file": "woman-with-a-hat.jpg",
+   "px": [
+    1175,
+    1600
+   ],
+   "title": "Femme au chapeau (Woman with a Hat)",
+   "artist": "Henri Matisse",
+   "date": "1905",
+   "collection": "San Francisco Museum of Modern Art, bequest of Elise S. Haas",
+   "licence": "Public domain — {{PD-old-70}} + {{PD-US-expired}} (exhibited Salon d'Automne 1905)",
+   "commons_file": "Matisse-Woman-with-a-Hat.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Matisse-Woman-with-a-Hat.jpg",
+   "photographer_or_uploader_credit": "source sfmoma.org",
+   "notes": "Commons page notes '©Succession H. Matisse / ARS' as the museum's credit line; PD in EU since 2025 and in the US (published before 1931)."
+  },
+  {
+   "slug": "dance-1910",
+   "file": "dance-1910.jpg",
+   "px": [
+    1600,
+    1102
+   ],
+   "title": "La Danse (II) (Dance)",
+   "artist": "Henri Matisse",
+   "date": "1910",
+   "collection": "State Hermitage Museum, St Petersburg (ex-Shchukin)",
+   "licence": "Public domain — {{PD-art|PD-old-auto-expired|deathyear=1954}}",
+   "commons_file": "La Danse II, par Henri Matisse.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:La_Danse_II,_par_Henri_Matisse.jpg",
+   "photographer_or_uploader_credit": "reproduction via cineclubdecaen.com, uploaded for Public Domain Day 2025",
+   "notes": "Wikidata Q21244925. Exhibited at the 1910 Salon d'Automne, so it is also PD in the US (published before 1931), although Commons carries only the EU rationale."
+  },
+  {
+   "slug": "red-studio-1911",
+   "file": "red-studio-1911.jpg",
+   "px": [
+    1600,
+    1321
+   ],
+   "title": "L'Atelier rouge (The Red Studio)",
+   "artist": "Henri Matisse",
+   "date": "1911",
+   "collection": "Museum of Modern Art, New York, Mrs. Simon Guggenheim Fund",
+   "licence": "Public domain — {{PD-old-70}} (no PD-Art wrapper on the Commons page)",
+   "commons_file": "L'Atelier rouge, par Henri Matisse.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:L'Atelier_rouge,_par_Henri_Matisse.jpg",
+   "photographer_or_uploader_credit": "source moma.org media, uploaded for Public Domain Day 2025",
+   "notes": "Faithful 2D reproduction, so no separate photo copyright (Bridgeman rule / Commons PD-Art policy)."
+  },
+  {
+   "slug": "matisse-photo-1898",
+   "file": "matisse-photo-1898.jpg",
+   "px": [
+    204,
+    286
+   ],
+   "title": "Henri Matisse, portrait photograph at the time of his marriage",
+   "artist": "Unknown photographer",
+   "date": "1898",
+   "collection": "Reproduced in Hilary Spurling, The Unknown Matisse (UC Press, 2001), p. 130",
+   "licence": "Public domain — {{PD-old}}; anonymous photograph of 1898",
+   "commons_file": "Henri Matisse Portraitf 1898.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Henri_Matisse_Portraitf_1898.jpg",
+   "photographer_or_uploader_credit": "anonymous, 1898",
+   "notes": "Only 204 x 286 px on Commons — thumbnail use only. Photographer anonymous, >120 years old: safe in EU and US. A wider two-person version exists: 'Henri + Amélie Matisse Portrait 1898.jpg' (425 x 286, PD-anon-expired)."
+  },
+  {
+   "slug": "matisse-photo-1918-cagnes",
+   "file": "matisse-photo-1918-cagnes.jpg",
+   "px": [
+    490,
+    515
+   ],
+   "title": "Pierre-Auguste Renoir (seated), Albert Marquet, Walther Halvorsen, Henri Matisse and Catherine Hessling at Cagnes-sur-Mer",
+   "artist": "Unidentified photographer ('photographe inidentifiable' per Musée Renoir)",
+   "date": "1918",
+   "collection": "Musée Renoir, Cagnes-sur-Mer",
+   "licence": "Public domain — {{PD-old}} + {{PD-old-100-expired}}; Commons author field: 'photographe inidentifiable'",
+   "commons_file": "Pierre-Auguste Renoir, Albert Marquet, Walther Halvorsen, Henri Matisse and Catherine Hessling (1918).jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir,_Albert_Marquet,_Walther_Halvorsen,_Henri_Matisse_and_Catherine_Hessling_(1918).jpg",
+   "photographer_or_uploader_credit": "anonymous, 1918, Musée Renoir",
+   "notes": "Anonymous 1918 photo: PD in the EU (anonymous works, 70 years) and the US. Walther Halvorsen was a student of the Académie Matisse, Marquet his closest friend — relevant to the walk. Small (490 x 515). The 'PD-old-100' tag is formally inexact for an anonymous work; the anonymous-EU rule is what makes it PD. No Agence Rol / Meurisse photo of Henri Matisse exists on Commons (searches returned only Auguste Matisse)."
+  },
+  {
+   "slug": "gauguin-paris-in-the-snow-1894",
+   "file": "gauguin-paris-in-the-snow-1894.jpg",
+   "px": [
+    972,
+    778
+   ],
+   "title": "Paris sous la neige (Paris in the Snow) — view from the studio at 6 rue Vercingétorix",
+   "artist": "Paul Gauguin",
+   "date": "1894",
+   "collection": "Van Gogh Museum, Amsterdam, s0223V1962",
+   "licence": "Public domain — {{PD-Art|PD-old-100-1923}}",
+   "commons_file": "Gauguin 1894 Paris sous la neige.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Gauguin_1894_Paris_sous_la_neige.jpg",
+   "photographer_or_uploader_credit": "",
+   "notes": "Commons original is only 972 x 778 px."
+  },
+  {
+   "slug": "signac-rue-vercingetorix-1885",
+   "file": "signac-rue-vercingetorix-1885.jpg",
+   "px": [
+    1600,
+    1168
+   ],
+   "title": "Rue Vercingétorix (Conté crayon drawing)",
+   "artist": "Paul Signac",
+   "date": "1885",
+   "collection": "Musée du Louvre, Département des Arts graphiques, RF 50850",
+   "licence": "Public domain — {{PD-Art|PD-old-auto-1923|deathyear=1935}} + {{Google Art Project}}",
+   "commons_file": "Paul Signac - Rue Vercingétorix - Google Art Project.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Paul_Signac_-_Rue_Vercing%C3%A9torix_-_Google_Art_Project.jpg",
+   "photographer_or_uploader_credit": "Google Art Project",
+   "notes": ""
+  },
+  {
+   "slug": "modigliani-marie-vassilieff",
+   "file": "modigliani-marie-vassilieff.jpg",
+   "px": [
+    450,
+    632
+   ],
+   "title": "Portrait of Marie Vassilieff",
+   "artist": "Amedeo Modigliani",
+   "date": "c. 1918",
+   "collection": "Private collection (not stated on Commons)",
+   "licence": "Public domain — {{PD/1923}} (US tag, 'published before 1930'); artist d. 1920 so PD worldwide",
+   "commons_file": "Modigliani - Marie Vassilieff.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Modigliani_-_Marie_Vassilieff.jpg",
+   "photographer_or_uploader_credit": "",
+   "notes": "Small file (450 x 632). Commons carries only the US tag; EU status is PD by life + 70 (Modigliani died 1920)."
+  },
+  {
+   "slug": "villa-vassilieff-alley-2016",
+   "file": "villa-vassilieff-alley-2016.jpg",
+   "px": [
+    1600,
+    1067
+   ],
+   "title": "Villa Marie-Vassilieff (21 avenue du Maine), Paris",
+   "artist": "Guilhem Vellut (photograph)",
+   "date": "2016-11-23",
+   "collection": "",
+   "licence": "CC BY 2.0 — {{cc-by-2.0}} (Flickr review passed)",
+   "commons_file": "Villa Marie-Vassilieff, Paris 23 November 2016.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Villa_Marie-Vassilieff,_Paris_23_November_2016.jpg",
+   "photographer_or_uploader_credit": "Photo: Guilhem Vellut, CC BY 2.0, via Wikimedia Commons",
+   "notes": "Attribution required on the site."
+  },
+  {
+   "slug": "marquet-gare-montparnasse-1912",
+   "file": "marquet-gare-montparnasse-1912.jpg",
+   "px": [
+    1259,
+    1024
+   ],
+   "title": "La Gare Montparnasse",
+   "artist": "Albert Marquet",
+   "date": "1912",
+   "collection": "Not stated on Commons",
+   "licence": "Public domain — {{PD-Art|PD-old-auto-expired|deathyear=1947}}",
+   "commons_file": "The Gare Montparnasse Albert Marquet (1912).jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:The_Gare_Montparnasse_Albert_Marquet_(1912).jpg",
+   "photographer_or_uploader_credit": "",
+   "notes": "Marquet died 1947: PD in the EU since 2018."
+  },
+  {
+   "slug": "marquet-gare-montparnasse-snow-1913",
+   "file": "marquet-gare-montparnasse-snow-1913.jpg",
+   "px": [
+    1280,
+    1020
+   ],
+   "title": "Gare Montparnasse in the Snow",
+   "artist": "Albert Marquet",
+   "date": "1913",
+   "collection": "Not stated on Commons",
+   "licence": "Public domain — {{PD-old-70-1923}}",
+   "commons_file": "Gare Montparnasse in the Snow Albert Marquet (1913).jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Gare_Montparnasse_in_the_Snow_Albert_Marquet_(1913).jpg",
+   "photographer_or_uploader_credit": "",
+   "notes": ""
+  },
+  {
+   "slug": "steins-studio-wall-1906",
+   "file": "steins-studio-wall-1906.jpg",
+   "px": [
+    997,
+    778
+   ],
+   "title": "The studio of Leo and Gertrude Stein, 27 rue de Fleurus, with Matisse's Woman with a Hat top centre",
+   "artist": "Unknown photographer",
+   "date": "c. 1906",
+   "collection": "Stein papers (Cone Papers, Baltimore Museum of Art, per SFMOMA)",
+   "licence": "Public domain — {{anonymous}} + {{PD-old-70}}",
+   "commons_file": "Gertrude Stein--Rue-de-fleurus 1906.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Gertrude_Stein--Rue-de-fleurus_1906.jpg",
+   "photographer_or_uploader_credit": "anonymous, c. 1906",
+   "notes": "Hero image for the rue de Fleurus stop. The Picassos visible on the wall are pre-1930 publications; the photo itself is anonymous and >70 years old."
+  },
+  {
+   "slug": "souza-cardoso-brasserie-dumesnil",
+   "file": "souza-cardoso-brasserie-dumesnil.jpg",
+   "px": [
+    1600,
+    1259
+   ],
+   "title": "Brasserie Dumesnil (place de Rennes, by the Gare Montparnasse)",
+   "artist": "Amadeo de Souza-Cardoso",
+   "date": "c. 1908–1910",
+   "collection": "Museu Nacional de Arte Contemporânea – Museu do Chiado, Lisbon",
+   "licence": "Artwork public domain (artist d. 1918); Commons file licensed CC BY 2.0 — {{cc-by-2.0}} (Flickr photo of the painting, review passed)",
+   "commons_file": "Brasserie Dumesnil (C.1908-1910) - Amadeo de Souza-Cardoso (1887-1918) (49584667381).jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Brasserie_Dumesnil_(C.1908-1910)_-_Amadeo_de_Souza-Cardoso_(1887-1918)_(49584667381).jpg",
+   "photographer_or_uploader_credit": "Photo: Pedro Ribeiro Simões (Flickr), CC BY 2.0, via Wikimedia Commons",
+   "notes": "Gallery photo of a 2D work, so the CC BY claim is arguably void under PD-Art, but credit the photographer anyway."
+  },
+  {
+   "slug": "rol-le-dome-1931",
+   "file": "rol-le-dome-1931.jpg",
+   "px": [
+    1600,
+    1159
+   ],
+   "title": "Le Dôme, 108 boulevard du Montparnasse (press photograph)",
+   "artist": "Agence Rol",
+   "date": "25 August 1931",
+   "collection": "Bibliothèque nationale de France, Gallica ark:/12148/btv1b532485710",
+   "licence": "Public domain — {{PD-France}} + {{PD-1996}}",
+   "commons_file": "Paris, 25-8-31 (restaurant) Le Dôme (108 Boulevard du Montparnasse, Paris, 14e arrondissement) - btv1b532485710.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Paris,_25-8-31_(restaurant)_Le_D%C3%B4me_(108_Boulevard_du_Montparnasse,_Paris,_14e_arrondissement)_-_btv1b532485710.jpg",
+   "photographer_or_uploader_credit": "Agence Rol / BnF Gallica",
+   "notes": "Anonymous agency photograph (collective work), PD in France."
+  },
+  {
+   "slug": "rol-la-rotonde-1924",
+   "file": "rol-la-rotonde-1924.jpg",
+   "px": [
+    1600,
+    1156
+   ],
+   "title": "Café de la Rotonde, boulevard du Montparnasse (press photograph)",
+   "artist": "Agence Rol",
+   "date": "January 1924",
+   "collection": "Bibliothèque nationale de France, Estampes et photographie, EI-13 (1074), Gallica ark:/12148/btv1b531244576",
+   "licence": "Public domain — {{PD-scan-two|PD-France|PD-anon-expired}}",
+   "commons_file": "Café de la Rotonde (Paris, 6e arrondissement) - btv1b531244576.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_de_la_Rotonde_(Paris,_6e_arrondissement)_-_btv1b531244576.jpg",
+   "photographer_or_uploader_credit": "Agence Rol / BnF Gallica",
+   "notes": "Commons original is 8584 x 6203 px (Rol ref. 89254)."
+  },
+  {
+   "slug": "weisgerber-painters-of-the-cafe-du-dome-1906",
+   "file": "weisgerber-painters-of-the-cafe-du-dome-1906.jpg",
+   "px": [
+    1600,
+    1008
+   ],
+   "title": "Die Maler des Café du Dôme (The Painters of the Café du Dôme)",
+   "artist": "Albert Weisgerber",
+   "date": "1906",
+   "collection": "Not stated on Commons",
+   "licence": "Public domain — {{PD-old}} (artist d. 1915)",
+   "commons_file": "AlbertWeisgerberMalerCafeDome.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:AlbertWeisgerberMalerCafeDome.jpg",
+   "photographer_or_uploader_credit": "",
+   "notes": ""
+  },
+  {
+   "slug": "matisse-portrait-de-bevilacqua",
+   "file": "matisse-portrait-de-bevilacqua.jpg",
+   "px": [
+    1422,
+    1600
+   ],
+   "title": "Portrait de Bevilacqua",
+   "artist": "Henri Matisse",
+   "date": "c. 1900–1901",
+   "collection": "Musée des Beaux-Arts de Bordeaux",
+   "licence": "Artwork public domain — {{PD-old-auto-1923|deathyear=1954}}; the museum photograph is {{self|cc-by-sa-4.0}} by Commons user Tylwyth Eldar (2024)",
+   "commons_file": "Henri Matisse - Portrait de Bevilacqua 01.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Henri_Matisse_-_Portrait_de_Bevilacqua_01.jpg",
+   "photographer_or_uploader_credit": "Photo: Tylwyth Eldar, CC BY-SA 4.0, via Wikimedia Commons",
+   "notes": "Own-work museum photo of a 2D painting (frame and lighting included); credit the photographer under CC BY-SA 4.0 to be safe. Wikidata Q123055466."
+  },
+  {
+   "slug": "balzac-rodin-vavin",
+   "file": "balzac-rodin-vavin.jpg",
+   "px": [
+    1600,
+    1067
+   ],
+   "title": "Rodin's Monument to Balzac, boulevard Raspail / carrefour Vavin",
+   "artist": "Celette (photograph); sculpture by Auguste Rodin (1898, cast 1939)",
+   "date": "2018-07-15",
+   "collection": "",
+   "licence": "CC BY-SA 4.0 — {{self|cc-by-sa-4.0}}",
+   "commons_file": "Balzac Rodin boulevard Raspail.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Balzac_Rodin_boulevard_Raspail.jpg",
+   "photographer_or_uploader_credit": "Photo: Celette, CC BY-SA 4.0, via Wikimedia Commons",
+   "notes": "Attribution + share-alike required. Rodin (d. 1917) is PD, so no FoP issue."
+  },
+  {
+   "slug": "atget-le-dome-1925",
+   "file": "atget-le-dome-1925.jpg",
+   "px": [
+    1600,
+    1226
+   ],
+   "title": "Le Dôme, boulevard Montparnasse",
+   "artist": "Eugène Atget",
+   "date": "June 1925",
+   "collection": "Museum of Modern Art, New York, Abbott-Levy Collection, 1.1969.3896",
+   "licence": "Public domain — {{PD-art|PD-old}} (Atget d. 1927)",
+   "commons_file": "Atget - Le Dôme, boulevard Montparnasse. Juin 1925, 1.1969.3896.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Atget_-_Le_D%C3%B4me,_boulevard_Montparnasse._Juin_1925,_1.1969.3896.jpg",
+   "photographer_or_uploader_credit": "Eugène Atget / MoMA",
+   "notes": ""
+  },
+  {
+   "slug": "pascin-cafe-du-dome-1910",
+   "file": "pascin-cafe-du-dome-1910.jpg",
+   "px": [
+    512,
+    646
+   ],
+   "title": "Jules Pascin in the Café du Dôme, Paris",
+   "artist": "Unknown photographer",
+   "date": "1910",
+   "collection": "Not stated on Commons",
+   "licence": "Public domain — {{PD-Art-two|Anonymous-EU|PD-1923}} + {{anonymous}}",
+   "commons_file": "Jules Pascin im Café du Dôme, Paris 1910.png",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Jules_Pascin_im_Caf%C3%A9_du_D%C3%B4me,_Paris_1910.png",
+   "photographer_or_uploader_credit": "anonymous, 1910",
+   "notes": "Small (512 x 646), converted from PNG."
+  },
+  {
+   "slug": "matisse-oceanie-le-ciel-1946",
+   "file": "matisse-oceanie-le-ciel-1946.jpg",
+   "px": [
+    1032,
+    492
+   ],
+   "title": "Océanie, le ciel (Oceania, the Sky) — screen-printed linen after the cut-outs made at 132 boulevard du Montparnasse",
+   "artist": "Henri Matisse",
+   "date": "1946",
+   "collection": "Colby College Museum of Art, Waterville, Maine",
+   "licence": "Public domain — {{PD-Art|PD-US-no notice}} (US-only rationale on Commons); PD in the EU since 1 Jan 2025 (life + 70)",
+   "commons_file": "Océanie, le ciel by Henri Matisse, Colby College.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Oc%C3%A9anie,_le_ciel_by_Henri_Matisse,_Colby_College.jpg",
+   "photographer_or_uploader_credit": "",
+   "notes": "Commons original is 1032 x 492 px. US status rests on the 'published without notice' claim; EU status is unambiguous."
+  },
+  {
+   "slug": "matisse-portrait-of-sarah-stein-1916",
+   "file": "matisse-portrait-of-sarah-stein-1916.jpg",
+   "px": [
+    1261,
+    1600
+   ],
+   "title": "Portrait of Sarah Stein",
+   "artist": "Henri Matisse",
+   "date": "1916",
+   "collection": "San Francisco Museum of Modern Art",
+   "licence": "Public domain — {{PD-old-70}}",
+   "commons_file": "Portrait de Sarah Stein, par Henri Matisse.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Portrait_de_Sarah_Stein,_par_Henri_Matisse.jpg",
+   "photographer_or_uploader_credit": "",
+   "notes": "Pendant of the Michael Stein portrait."
+  },
+  {
+   "slug": "matisse-portrait-of-michael-stein-1916",
+   "file": "matisse-portrait-of-michael-stein-1916.jpg",
+   "px": [
+    1198,
+    1600
+   ],
+   "title": "Portrait of Michael Stein",
+   "artist": "Henri Matisse",
+   "date": "1916",
+   "collection": "San Francisco Museum of Modern Art, 55.3546",
+   "licence": "Public domain — {{PD-old-70}}",
+   "commons_file": "Portrait de Michael Stein, par Henri Matisse.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Portrait_de_Michael_Stein,_par_Henri_Matisse.jpg",
+   "photographer_or_uploader_credit": "",
+   "notes": ""
+  },
+  {
+   "slug": "steins-courtyard-1905",
+   "file": "steins-courtyard-1905.jpg",
+   "px": [
+    609,
+    640
+   ],
+   "title": "The Steins in the courtyard of 27 rue de Fleurus (Leo, Allan, Gertrude, Theresa Ehrman, Sarah, Michael)",
+   "artist": "Unknown photographer",
+   "date": "c. 1905",
+   "collection": "The Bancroft Library, University of California, Berkeley",
+   "licence": "Public domain — bare {{PD-Art}} tag on Commons; author 'unknown', c. 1905 (anonymous work >70 years)",
+   "commons_file": "The Steins in the courtyard of 27 rue de Fleurus, ca. 1905. From left- Leo Stein, Allan Stein, Gertrude Stein, Theresa Ehrman, Sarah Stein, Michael Stein,The Bancroft Library, University of California, Berkeley.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:The_Steins_in_the_courtyard_of_27_rue_de_Fleurus,_ca._1905._From_left-_Leo_Stein,_Allan_Stein,_Gertrude_Stein,_Theresa_Ehrman,_Sarah_Stein,_Michael_Stein,The_Bancroft_Library,_University_of_California,_Berkeley.jpg",
+   "photographer_or_uploader_credit": "anonymous, c. 1905, Bancroft Library",
+   "notes": "Small (609 x 640). The Commons tag is a bare PD-Art without an underlying rationale; the substantive reason it is PD is that it is an anonymous photograph from c. 1905."
+  },
+  {
+   "slug": "fougstedt-in-matisses-studio",
+   "file": "fougstedt-in-matisses-studio.jpg",
+   "px": [
+    1600,
+    932
+   ],
+   "title": "I Matisses ateljé (In Matisse's studio): Palme, Levy, Matisse, Percy, Hjertén, Engström, Grünewald, Jolin, Krohg, Simonsson (ink drawing)",
+   "artist": "Arvid Fougstedt",
+   "date": "c. 1910 (Commons: before 1950)",
+   "collection": "Reproduced in Svenskt konstnärslexikon; related drawing at Moderna Museet",
+   "licence": "Public domain — {{PD-old-auto}} (artist d. 1949)",
+   "commons_file": "I Matisses ateljé x Arvid Fougstedt.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:I_Matisses_atelj%C3%A9_x_Arvid_Fougstedt.jpg",
+   "photographer_or_uploader_credit": "",
+   "notes": "Fougstedt died 1949: PD in the EU since 2020."
+  },
+  {
+   "slug": "academie-matisse-class-1909",
+   "file": "academie-matisse-class-1909.jpg",
+   "px": [
+    1280,
+    680
+   ],
+   "title": "Matisse and his students (Académie Matisse), 1909",
+   "artist": "Unknown photographer",
+   "date": "1909",
+   "collection": "Nasjonalgalleriet, Oslo (via artnet.com)",
+   "licence": "Public domain — bare {{pd-art}} tag on Commons; author 'unknown', 1909 (anonymous work >70 years)",
+   "commons_file": "Group picture of Matisse's students, 1909.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Group_picture_of_Matisse's_students,_1909.jpg",
+   "photographer_or_uploader_credit": "anonymous, 1909, Nasjonalgalleriet Oslo",
+   "notes": "Grünewald stands behind Matisse; Hjertén second from right, front row. The Commons tag is a bare pd-art; PD rests on the anonymous 1909 date."
+  },
+  {
+   "slug": "temple-58-rue-madame",
+   "file": "temple-58-rue-madame.jpg",
+   "px": [
+    1169,
+    1600
+   ],
+   "title": "Temple protestant, 58 rue Madame, Paris 6e (former home of Michael and Sarah Stein)",
+   "artist": "Celette (photograph)",
+   "date": "2019-05-24",
+   "collection": "",
+   "licence": "CC BY-SA 4.0 — {{self|cc-by-sa-4.0}}",
+   "commons_file": "Temple protestant, 58 rue Madame, Paris 6e.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Temple_protestant,_58_rue_Madame,_Paris_6e.jpg",
+   "photographer_or_uploader_credit": "Photo: Celette, CC BY-SA 4.0, via Wikimedia Commons",
+   "notes": "Attribution + share-alike required."
+  },
+  {
+   "slug": "plaque-27-rue-de-fleurus",
+   "file": "plaque-27-rue-de-fleurus.jpg",
+   "px": [
+    1600,
+    1456
+   ],
+   "title": "Plaque to Gertrude Stein, 27 rue de Fleurus, Paris 6e",
+   "artist": "Mu (Wikimedia Commons user, photograph)",
+   "date": "2010-04-25",
+   "collection": "",
+   "licence": "CC BY-SA 3.0 — {{cc-by-sa-3.0}}",
+   "commons_file": "Plaque Gertrude Stein, 27 rue de Fleurus, Paris 6.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Plaque_Gertrude_Stein,_27_rue_de_Fleurus,_Paris_6.jpg",
+   "photographer_or_uploader_credit": "Photo: Mu, CC BY-SA 3.0, via Wikimedia Commons",
+   "notes": "Attribution + share-alike required."
+  },
+  {
+   "slug": "matisse-luxembourg-gardens-1901",
+   "file": "matisse-luxembourg-gardens-1901.jpg",
+   "px": [
+    1476,
+    1065
+   ],
+   "title": "Le Jardin du Luxembourg (The Luxembourg Gardens)",
+   "artist": "Henri Matisse",
+   "date": "c. 1901",
+   "collection": "State Hermitage Museum, St Petersburg, ГЭ-9041 (ex-Shchukin)",
+   "licence": "Public domain — {{PD-Art|PD-old-auto-1923|deathyear=1954}}",
+   "commons_file": "Matisse - Luxembourg Gardens (1901).jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Matisse_-_Luxembourg_Gardens_(1901).jpg",
+   "photographer_or_uploader_credit": "",
+   "notes": ""
+  },
+  {
+   "slug": "marquet-alley-luxembourg-1901",
+   "file": "marquet-alley-luxembourg-1901.jpg",
+   "px": [
+    808,
+    575
+   ],
+   "title": "An Alley in the Jardin du Luxembourg",
+   "artist": "Albert Marquet",
+   "date": "1901",
+   "collection": "State Hermitage Museum, St Petersburg",
+   "licence": "Public domain — {{PD-Art|PD-old-auto-expired|deathyear=1947}}",
+   "commons_file": "Albert Marquet - An Alley in the Jardin du Luxembourg , 1901.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Albert_Marquet_-_An_Alley_in_the_Jardin_du_Luxembourg_,_1901.jpg",
+   "photographer_or_uploader_credit": "",
+   "notes": "Commons original is only 808 x 575 px."
+  },
+  {
+   "slug": "levy-walkers-luxembourg-1910",
+   "file": "levy-walkers-luxembourg-1910.jpg",
+   "px": [
+    791,
+    533
+   ],
+   "title": "Spaziergänger im Park (Jardin du Luxembourg)",
+   "artist": "Rudolf Levy",
+   "date": "1910",
+   "collection": "Wilhelm-Hack-Museum, Ludwigshafen (Thesing cat. 19)",
+   "licence": "Public domain — {{PD-Art|PD-old-auto-expired|deathyear=1944|country=Germany}}",
+   "commons_file": "Spaziergänger im Park (Jardin du Luxembourg), Rudolf Levy, Thesing 19.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Spazierg%C3%A4nger_im_Park_(Jardin_du_Luxembourg),_Rudolf_Levy,_Thesing_19.jpg",
+   "photographer_or_uploader_credit": "",
+   "notes": "Commons original is only 791 x 533 px. Levy (Matisse student, Dôme leader) was murdered in 1944; PD since 2015."
+  },
+  {
+   "slug": "rousseau-monument-to-chopin-1909",
+   "file": "rousseau-monument-to-chopin-1909.jpg",
+   "px": [
+    1600,
+    1319
+   ],
+   "title": "The Luxembourg Gardens: Monument to Chopin",
+   "artist": "Henri Rousseau (Le Douanier)",
+   "date": "1909",
+   "collection": "State Hermitage Museum, St Petersburg, ГЭ-7716 (ex-Shchukin)",
+   "licence": "Public domain — {{PD-Art|PD-old-auto-expired|deathyear=1919}} (sic on Commons; Rousseau actually died 1910)",
+   "commons_file": "Henri Rousseau - The Luxembourg Gardens. Monument to Shopin.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Henri_Rousseau_-_The_Luxembourg_Gardens._Monument_to_Shopin.jpg",
+   "photographer_or_uploader_credit": "",
+   "notes": "Commons file name misspells Chopin as 'Shopin'."
+  },
+  {
+   "slug": "namik-ismail-carpeaux-fountain-1924",
+   "file": "namik-ismail-carpeaux-fountain-1924.jpg",
+   "px": [
+    1200,
+    1600
+   ],
+   "title": "Carpeaux Fountain in Paris (Fontaine de l'Observatoire)",
+   "artist": "Namık İsmail",
+   "date": "1924",
+   "collection": "Istanbul Painting and Sculpture Museum",
+   "licence": "Public domain — {{PD-US-expired}} (US-only tag on Commons); artist d. 1935, so also PD in Turkey and the EU (life + 70)",
+   "commons_file": "Carpeaux Fountain in Paris by Namık İsmail, 1924.Istanbul Painting and Sculpture Museum.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Carpeaux_Fountain_in_Paris_by_Nam%C4%B1k_%C4%B0smail,_1924.Istanbul_Painting_and_Sculpture_Museum.jpg",
+   "photographer_or_uploader_credit": "",
+   "notes": "Commons carries only the US rationale; EU/Turkey PD follows from the 1935 death date."
+  },
+  {
+   "slug": "sargent-luxembourg-gardens-1879",
+   "file": "sargent-luxembourg-gardens-1879.jpg",
+   "px": [
+    1600,
+    1126
+   ],
+   "title": "In the Luxembourg Gardens",
+   "artist": "John Singer Sargent",
+   "date": "1879",
+   "collection": "Philadelphia Museum of Art, John G. Johnson Collection, cat. 1080",
+   "licence": "Public domain — {{PD-art|PD-old}} (artist d. 1925)",
+   "commons_file": "Sargent - In the Luxembourg Gardens, 1879, Cat. 1080.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Sargent_-_In_the_Luxembourg_Gardens,_1879,_Cat._1080.jpg",
+   "photographer_or_uploader_credit": "",
+   "notes": ""
+  },
+  {
+   "slug": "atget-fontaine-carpeaux-1901",
+   "file": "atget-fontaine-carpeaux-1901.jpg",
+   "px": [
+    1310,
+    1600
+   ],
+   "title": "Luxembourg, fontaine Carpeaux",
+   "artist": "Eugène Atget",
+   "date": "1901–02",
+   "collection": "Museum of Modern Art, New York, Abbott-Levy Collection, 1.1969.1934",
+   "licence": "Public domain — {{PD-art|PD-old}} (Atget d. 1927)",
+   "commons_file": "Atget - Luxembourg, fontaine Carpeaux. 1901-02, 1.1969.1934.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Atget_-_Luxembourg,_fontaine_Carpeaux._1901-02,_1.1969.1934.jpg",
+   "photographer_or_uploader_credit": "Eugène Atget / MoMA",
+   "notes": ""
+  }
+ ],
+ "skipped": [
+  {
+   "slug": "jazz-icarus-1947",
+   "reason": "Not on Wikimedia Commons. Searches ('Matisse Jazz 1947', 'Matisse Jazz Icarus', 'Icare Matisse') return only a 1947 Rio exhibition poster 'd'après Henri Matisse' (BnF btv1b9005258r) and a museum-installation photo (MatisseJazzVoorlinden.jpg), neither of which is the plate itself. Jazz (1947) is also still in copyright in the US."
+  },
+  {
+   "slug": "matisse-le-bateau-1953",
+   "reason": "Not on Wikimedia Commons ('Matisse Bateau' / 'Matisse Le Bateau 1953' return nothing relevant). Post-1930 work, so not PD in the US either."
+  },
+  {
+   "slug": "matisse-photo-rol-meurisse",
+   "reason": "No Agence Rol or Agence Meurisse photograph of Henri Matisse exists on Commons (the only Meurisse hit is the painter Auguste Matisse, btv1b9030898m). Two anonymous photos were saved instead (matisse-photo-1898, matisse-photo-1918-cagnes). Rejected named-photographer candidates: Alvin Langdon Coburn 1913 (d. 1966, PD-US only), Edward Steichen 1909 (d. 1973), Carl Van Vechten 1933 (d. 1964, PD-Van Vechten is a US-only release); BnF Ballets russes photos of 1919/1939 (btv1b70022162, btv1b70022414) have no photographer named by the BnF and carry PD-US-expired / PD-France tags only, so they were skipped as unsure."
+  }
+ ],
+ "saved": [
+  {
+   "slug": "select-2011",
+   "file": "art/select-2011.jpg",
+   "title": "Cafe Le Select, Paris - 2011.JPG",
+   "licence": "CC BY-SA 3.0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Cafe_Le_Select,_Paris_-_2011.JPG",
+   "photographer_or_uploader_credit": "The original uploader was DIMSFIKAS at Greek Wikipedia."
+  },
+  {
+   "slug": "coupole-facade",
+   "file": "art/coupole-facade.jpg",
+   "title": "Paris, France. Bd. Montparnasse. LA COUPOLE(PA00086635).jpg",
+   "licence": "CC BY-SA 4.0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Paris,_France._Bd._Montparnasse._LA_COUPOLE(PA00086635).jpg",
+   "photographer_or_uploader_credit": "Britchi Mirela"
+  },
+  {
+   "slug": "closerie-des-lilas-1909",
+   "file": "art/closerie-des-lilas-1909.jpg",
+   "title": "La Closerie des Lilas (enhanced contrast).jpg",
+   "licence": "Public domain",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:La_Closerie_des_Lilas_(enhanced_contrast).jpg",
+   "photographer_or_uploader_credit": "Unknown authorUnknown author"
+  },
+  {
+   "slug": "quai-saint-michel",
+   "file": "art/quai-saint-michel.jpg",
+   "title": "Henri Matisse, 1902, Notre-Dame, une fin d'après-midi, oil on paper mounted on canvas, 72.4 x 54.6 cm, Albright-Knox Art Gallery.jpg",
+   "licence": "Public domain",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Henri_Matisse,_1902,_Notre-Dame,_une_fin_d'après-midi,_oil_on_paper_mounted_on_canvas,_72.4_x_54.6_cm,_Albright-Knox_Art_Gallery.jpg",
+   "photographer_or_uploader_credit": "Henri Matisse"
+  },
+  {
+   "slug": "couvent-des-oiseaux",
+   "file": "art/couvent-des-oiseaux.jpg",
+   "title": "Bâtiments dans le jardin du couvent des Oiseaux, 7ème arrondissement, Paris, PH80761.jpg",
+   "licence": "CC0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Bâtiments_dans_le_jardin_du_couvent_des_Oiseaux,_7ème_arrondissement,_Paris,_PH80761.jpg",
+   "photographer_or_uploader_credit": "Barry, Jean (en 1913), photographe"
+  },
+  {
+   "slug": "hotel-biron",
+   "file": "art/hotel-biron.jpg",
+   "title": "Hôtel Biron in 1910.jpg",
+   "licence": "Public domain",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Hôtel_Biron_in_1910.jpg",
+   "photographer_or_uploader_credit": "Anne Pollen"
+  },
+  {
+   "slug": "musee-du-luxembourg",
+   "file": "art/musee-du-luxembourg.jpg",
+   "title": "Odalisque à la culotte rouge Henri Matisse 1921 Centre Pompidou.jpg",
+   "licence": "Public domain",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Odalisque_à_la_culotte_rouge_Henri_Matisse_1921_Centre_Pompidou.jpg",
+   "photographer_or_uploader_credit": "Centre Pompidou, MNAM-CCI/Philippe Migeat/Dist. GrandPalaisRmn"
+  },
+  {
+   "slug": "hotel-lutetia",
+   "file": "art/hotel-lutetia.jpg",
+   "title": "Hôtel Lutetia, Paris 6e.jpg",
+   "licence": "CC BY-SA 4.0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Hôtel_Lutetia,_Paris_6e.jpg",
+   "photographer_or_uploader_credit": "Celette"
+  },
+  {
+   "slug": "grand-palais",
+   "file": "art/grand-palais.jpg",
+   "title": "Gil Blas Salon d'Automne pA 1905 10 17 Louis Vauxcelles.jpg",
+   "licence": "CC0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Gil_Blas_Salon_d'Automne_pA_1905_10_17_Louis_Vauxcelles.jpg",
+   "photographer_or_uploader_credit": "Titre : \n\n   Gil Blas / dir. A. Dumont \n\nÉditeur : \n\n   [s.n.] (Paris) \n\nDate d'édition : \n\n   1905-10-17 \n\nContributeur : \n\n   Dumont, Auguste (publiciste). Directeur de publication \n\nContributeur : \n\n   Gugenheim, Eugène (1857-1921). Directeur de publication \n\nContributeur : \n\n   Mortier, Pierre (1882-1946). Directeur de publication \n\nType : \n\n   texte \n\nType : \n\n   publication en série imprimée \n\nLangue : \n\n   Français \n\nLangue : \n\n   language.label.français \n\nFormat : \n\n   application/pdf \n\nFormat : \n\n   Nombre total de vues : 53031 \n\nDescription : \n\n   1905/10/17 (A27,N9500). \n\nDroits : \n\n   domaine public \n\nIdentifiant : \n\n   ark:/12148/bpt6k7522165g \n\nSource : \n\n   Bibliothèque nationale de France, département Droit, économie, politique, JOD-209 \n\nRelation : \n\n   http://catalogue.bnf.fr/ark:/12148/cb344298410 \n\nRelation : \n\n   http://gallica.bnf.fr/ark:/12148/cb344298410/date \n\nProvenance : \n\n   Bibliothèque nationale de France \n\nDate de mise en ligne : \n\n    27/08/2012"
+  },
+  {
+   "slug": "musee-gustave-moreau",
+   "file": "art/musee-gustave-moreau.jpg",
+   "title": "Paris musée Gustave-Moreau, 19 mai 2013.jpg",
+   "licence": "CC BY-SA 3.0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Paris_musée_Gustave-Moreau,_19_mai_2013.jpg",
+   "photographer_or_uploader_credit": "Velvet",
+   "sources": [
+    "https://www.universalis.fr/encyclopedie/gustave-moreau/4-le-maitre-des-fauves/",
+    "https://www.universalis.fr/encyclopedie/gustave-moreau/5-le-musee-gustave-moreau/",
+    "https://musee-moreau.fr/en",
+    "https://www.centrepompidou.fr/fileadmin/user_upload/matisse-pdf_interactif.pdf"
+   ]
+  },
+  {
+   "slug": "ecole-des-beaux-arts",
+   "file": "art/ecole-des-beaux-arts.jpg",
+   "title": "Ecole des Beaux-Arts, Paris - Main Entrance 2011.JPG",
+   "licence": "CC BY-SA 3.0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Ecole_des_Beaux-Arts,_Paris_-_Main_Entrance_2011.JPG",
+   "photographer_or_uploader_credit": "DIMSFIKAS",
+   "sources": [
+    "https://www.centrepompidou.fr/en/ressources/oeuvre/c6b5nk9",
+    "https://www.universalis.fr/encyclopedie/henri-matisse/3-une-esthetique-de-l-echange/",
+    "https://www.museothyssen.org/en/node/14744",
+    "https://www.britannica.com/biography/Henri-Matisse"
+   ]
+  },
+  {
+   "slug": "ecole-des-arts-decoratifs",
+   "file": "art/ecole-des-arts-decoratifs.jpg",
+   "title": "Ancien amphithéâtre de Saint Côme, école nationale des Arts Décoratifs, 5 rue de l'Ecole-de-Médecine, 6ème arrondissemen, PH13507.jpg",
+   "licence": "CC0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Ancien_amphithéâtre_de_Saint_Côme,_école_nationale_des_Arts_Décoratifs,_5_rue_de_l'Ecole-de-Médecine,_6ème_arrondissemen,_PH13507.jpg",
+   "photographer_or_uploader_credit": "Atget, Eugène (Jean Eugène Auguste Atget, dit) (Libourne, 12–02–1857 - Paris, 04",
+   "sources": [
+    "https://www.britannica.com/biography/Henri-Matisse",
+    "https://fr.wikipedia.org/wiki/%C3%89cole_nationale_sup%C3%A9rieure_des_arts_d%C3%A9coratifs",
+    "https://pop.culture.gouv.fr/notice/memoire/APMH00083533",
+    "https://www.ensad.fr/en/histoire-0"
+   ]
+  },
+  {
+   "slug": "galerie-vollard",
+   "file": "art/galerie-vollard.jpg",
+   "title": "Paris 75009 Rue Laffitte no 02-12 x Boulevard Haussmann 20160101.jpg",
+   "licence": "CC BY 2.0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Paris_75009_Rue_Laffitte_no_02-12_x_Boulevard_Haussmann_20160101.jpg",
+   "photographer_or_uploader_credit": "Guilhem Vellut from Paris, France",
+   "sources": [
+    "https://www.metmuseum.org/research-centers/leonard-a-lauder-research-center/research-resources/modern-art-index-project/vollard",
+    "https://rouault.org/en/?p=3501",
+    "https://emuseum.delart.org/people/1623/henri-matisse",
+    "https://en.wikipedia.org/wiki/Three_Bathers",
+    "https://www.centrepompidou.fr/fileadmin/user_upload/matisse-pdf_interactif.pdf"
+   ]
+  },
+  {
+   "slug": "galerie-berthe-weill",
+   "file": "art/galerie-berthe-weill.jpg",
+   "title": "25 rue Victor-Massé, Paris 9e 3-5.jpg",
+   "licence": "CC BY-SA 4.0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:25_rue_Victor-Massé,_Paris_9e_3-5.jpg",
+   "photographer_or_uploader_credit": "Polymagou",
+   "sources": [
+    "https://www.musee-orangerie.fr/en/node/309385",
+    "https://news.artnet.com/art-world/berthe-weill-grey-art-museum-2546372",
+    "https://unidivers.fr/paris-musee-orangerie-berthe-weill/",
+    "https://en.wikipedia.org/wiki/Berthe_Weill"
+   ]
+  },
+  {
+   "slug": "galerie-druet",
+   "file": "art/galerie-druet.jpg",
+   "title": "Entrée du 114 Faubourg rue du Faubourg-Saint-Honoré à Paris.JPG",
+   "licence": "CC BY-SA 3.0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Entrée_du_114_Faubourg_rue_du_Faubourg-Saint-Honoré_à_Paris.JPG",
+   "photographer_or_uploader_credit": "Erwmat",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Eug%C3%A8ne_Druet",
+    "https://www.doaks.org/resources/bliss-tyler-correspondence/annotations/galerie-e-druet",
+    "https://erenow.org/common/in-montmartre-picasso-matisse-and-the-birth-of-modernist-art/22.php",
+    "https://en.wikipedia.org/wiki/H%C3%B4tel_Le_Bristol_Paris"
+   ]
+  },
+  {
+   "slug": "galerie-bernheim-jeune",
+   "file": "art/galerie-bernheim-jeune.jpg",
+   "title": "Bernheim Jeune, Paris, 1910.jpg",
+   "licence": "Public domain",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Bernheim_Jeune,_Paris,_1910.jpg",
+   "photographer_or_uploader_credit": "AnonymousUnknown author",
+   "sources": [
+    "https://research.frick.org/directory/detail/71",
+    "https://transatlanticencounters.rrchnm.org/items/show/5161",
+    "https://galerie-institut.com/en/?p=17795",
+    "https://www.metmuseum.org/research-centers/leonard-a-lauder-research-center/research-resources/modern-art-index-project/bernheim-jeune"
+   ]
+  },
+  {
+   "slug": "serres-cours-la-reine",
+   "file": "art/serres-cours-la-reine.jpg",
+   "title": "Bonheur Matisse.jpg",
+   "licence": "Public domain",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Bonheur_Matisse.jpg",
+   "photographer_or_uploader_credit": "Henri Matisse",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Le_bonheur_de_vivre",
+    "https://www.musee-orsay.fr/fr/oeuvres/eve-bretonne-7989",
+    "https://reidhall.globalcenters.columbia.edu/content/salons-1894-1914",
+    "https://en.wikipedia.org/wiki/Salon_des_ind%C3%A9pendants"
+   ]
+  },
+  {
+   "slug": "petit-palais",
+   "file": "art/petit-palais.jpg",
+   "title": "Trois baigneuses, par Paul Cézanne, Musée du Petit Palais.jpg",
+   "licence": "Public domain",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Trois_baigneuses,_par_Paul_Cézanne,_Musée_du_Petit_Palais.jpg",
+   "photographer_or_uploader_credit": "",
+   "sources": [
+    "https://www.petitpalais.paris.fr/en/node/508",
+    "https://en.wikipedia.org/wiki/Three_Bathers",
+    "https://www.timeout.fr/paris/musee/petit-palais/cezanne/trois-baigneuses",
+    "https://www.centrepompidou.fr/fileadmin/user_upload/matisse-pdf_interactif.pdf"
+   ]
+  },
+  {
+   "slug": "musee-de-l-orangerie",
+   "file": "art/musee-de-l-orangerie.jpg",
+   "title": "Orangerie Tuileries.jpg",
+   "licence": "CC0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Orangerie_Tuileries.jpg",
+   "photographer_or_uploader_credit": "Jebulon",
+   "sources": [
+    "https://www.musee-orangerie.fr/en/node/197501",
+    "https://www.musee-orangerie.fr/es/obras/odalisque-la-culotte-grise-196476",
+    "https://www.musee-orangerie.fr/es/obras/odalisque-bleue-ou-lesclave-blanche-196468"
+   ]
+  },
+  {
+   "slug": "centre-pompidou",
+   "file": "art/centre-pompidou.jpg",
+   "title": "Centre Pompidou, seen from Tour Montparnasse.jpg",
+   "licence": "CC0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Centre_Pompidou,_seen_from_Tour_Montparnasse.jpg",
+   "photographer_or_uploader_credit": "Alf van Beem",
+   "sources": [
+    "https://www.centrepompidou.fr/fileadmin/user_upload/matisse-pdf_interactif.pdf",
+    "https://www.centrepompidou.fr/en/ressources/oeuvre/coE6ARM",
+    "https://www.thelocal.fr/20250309/art-lovers-mob-pariss-pompidou-centre-ahead-of-five-year-closure",
+    "https://leclaireur.fnac.com/article/578941-centre-pompidou-ou-vont-aller-les-oeuvres-durant-les-travaux/"
+   ]
+  },
+  {
+   "slug": "musee-d-art-moderne-de-paris",
+   "file": "art/musee-d-art-moderne-de-paris.jpg",
+   "title": "Henri matisse, la danse di parigi, 1931-33, 00.jpg",
+   "licence": "CC BY-SA 4.0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Henri_matisse,_la_danse_di_parigi,_1931-33,_00.jpg",
+   "photographer_or_uploader_credit": "Francesco Bini",
+   "sources": [
+    "https://www.mam.paris.fr/en/node/516",
+    "https://mam.paris.fr/sites/default/files/documents/depliant_mam-16pages-fr-16juin.pdf"
+   ]
+  },
+  {
+   "slug": "musee-picasso",
+   "file": "art/musee-picasso.jpg",
+   "title": "Henri Matisse, 1906-07, Portrait de Marguerite, oil on canvas, 65 x 54 cm, Musée Picasso, Paris.jpg",
+   "licence": "Public domain",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Henri_Matisse,_1906-07,_Portrait_de_Marguerite,_oil_on_canvas,_65_x_54_cm,_Musée_Picasso,_Paris.jpg",
+   "photographer_or_uploader_credit": "Henri Matisse",
+   "sources": [
+    "https://mam.paris.fr/sites/default/files/documents/en_cp_matisse_et_marguerite_mam.pdf",
+    "https://news.artnet.com/art-world/matisse-daughter-2640043",
+    "https://theartnewspaper.com/2017/08/01/marguerite-matisse-plays-starring-role-in-picassos-studio-and-ra-show"
+   ]
+  },
+  {
+   "slug": "galerie-georges-petit",
+   "file": "art/galerie-georges-petit.jpg",
+   "title": "12-12-31, visite de M. Doumer à l'exposition des travaux des blessés de l'Atelier Lachenal (galerie Georges-Petit, 8 rue de Sèze, 8e arrondissement) - btv1b532515747.jpg",
+   "licence": "Public domain",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:12-12-31,_visite_de_M._Doumer_à_l'exposition_des_travaux_des_blessés_de_l'Atelier_Lachenal_(galerie_Georges-Petit,_8_rue_de_Sèze,_8e_arrondissement)_-_btv1b532515747.jpg",
+   "photographer_or_uploader_credit": "Agence Rol. Agence photographique (commanditaire)",
+   "sources": [
+    "https://www.metmuseum.org/research-centers/leonard-a-lauder-research-center/research-resources/modern-art-index-project/galerie-georges-petit",
+    "https://www.moma.org/calendar/exhibitions/1903",
+    "https://www.transatlanticencounters.rrchnm.org/items/show/5179"
+   ]
+  },
+  {
+   "slug": "palais-garnier",
+   "file": "art/palais-garnier.jpg",
+   "title": "Le chant du rossignol - maquette d'Henri Matisse pour un costume de guerrier - btv1b7002916g.jpg",
+   "licence": "Public domain",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Le_chant_du_rossignol_-_maquette_d'Henri_Matisse_pour_un_costume_de_guerrier_-_btv1b7002916g.jpg",
+   "photographer_or_uploader_credit": "Matisse, Henri (1869-1954). Dessinateur de l'oeuvre reproduite",
+   "sources": [
+    "https://collections.vam.ac.uk/item/O1115582/theatre-costume-henri-matisse",
+    "https://digital.nga.gov.au/archive/exhibition/balletsrusses/default.cfm%3fmnuid=3&galid=19.html",
+    "https://www.wienersymphoniker.at/en/opus/le-chant-du-rossignol-song-nightingale-symphonic-poem-3-parts"
+   ]
+  },
+  {
+   "slug": "galerie-paul-rosenberg",
+   "file": "art/galerie-paul-rosenberg.jpg",
+   "title": "Plaque Paul Rosenberg, 21 rue La Boétie, Paris 8e 1.jpg",
+   "licence": "CC BY 4.0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Plaque_Paul_Rosenberg,_21_rue_La_Boétie,_Paris_8e_1.jpg",
+   "photographer_or_uploader_credit": "Polymagou",
+   "sources": [
+    "https://www.centrepompidou.fr/en/ressources/archive/A327aG3",
+    "https://en.wikipedia.org/wiki/Paul_Rosenberg_(art_dealer)",
+    "https://viaf.org/viaf/8493826/"
+   ]
+  },
+  {
+   "slug": "galerie-maeght",
+   "file": "art/galerie-maeght.jpg",
+   "title": "13 rue de Téhéran Paris.jpg",
+   "licence": "CC BY 4.0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:13_rue_de_Téhéran_Paris.jpg",
+   "photographer_or_uploader_credit": "CVB",
+   "sources": [
+    "https://www.metmuseum.org/en/research-centers/leonard-a-lauder-research-center/research-resources/modern-art-index-project/maeght"
+   ]
+  },
+  {
+   "slug": "editions-verve-teriade",
+   "file": "art/editions-verve-teriade.jpg",
+   "title": "4 rue Férou Paris.jpg",
+   "licence": "CC BY-SA 4.0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:4_rue_Férou_Paris.jpg",
+   "photographer_or_uploader_credit": "CVB",
+   "sources": [
+    "https://www.centrepompidou.fr/en/ressources/oeuvre/coE6ARM",
+    "https://sotherans.co.uk/products/teriade-pseudonym-for-stratis-eleftheriades-editor-verve-issues-1-4-i-december-1937-ii-spring-1938-march-june-iii-october-december-1938-iv-january-march-1939",
+    "https://annexgalleries.com/inventory/detail/24096/Multiple-Artists/Verve-No-3---An-Artistic-and-Literary-Quarterly"
+   ]
+  },
+  {
+   "slug": "musee-du-louvre",
+   "file": "art/musee-du-louvre.jpg",
+   "title": "Louvre Museum Wikimedia Commons.jpg",
+   "licence": "CC BY-SA 3.0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Louvre_Museum_Wikimedia_Commons.jpg",
+   "photographer_or_uploader_credit": "Benh LIEU SONG (Flickr)",
+   "sources": [
+    "https://www.culture.gouv.fr/regions/drac-hauts-de-france/actualites/Le-Musee-Matisse-accueille-une-exposition-reconnue-d-interet-national",
+    "https://ashadedviewonfashion.com/2019/06/08/la-pourvoyeuse-by-jean-baptiste-simeon-chardin-copied-by-matisse-at-the-louvre-in-the-atelier-of-gustave-moreau/",
+    "https://www.moma.org/documents/moma_catalogue_1903_300086892.pdf"
+   ]
+  },
+  {
+   "slug": "pere-lachaise-gertrude-stein",
+   "file": "art/pere-lachaise-gertrude-stein.jpg",
+   "title": "Gertrude Stein tombe.jpg",
+   "licence": "CC0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Gertrude_Stein_tombe.jpg",
+   "photographer_or_uploader_credit": "ManoSolo13241324",
+   "sources": [
+    "https://www.findagrave.com/memorial/977",
+    "https://en.wikipedia.org/wiki/Alice_B._Toklas",
+    "https://en.wikipedia.org/wiki/Woman_with_a_Hat"
+   ]
+  },
+  {
+   "slug": "issy-les-moulineaux-matisse-house",
+   "file": "art/issy-les-moulineaux-matisse-house.jpg",
+   "title": "Jardin de l'artiste à Issy-les-Moulineaux(024909).jpg",
+   "licence": "Public domain",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Jardin_de_l'artiste_à_Issy-les-Moulineaux(024909).jpg",
+   "photographer_or_uploader_credit": "Henri Matisse",
+   "sources": [
+    "https://www.themorgan.org/literary-historical/132391",
+    "https://press.moma.org/wp-content/uploads/2022/04/5-Matisse_ExtendedArtworkLabels.pdf",
+    "https://www.moma.org/collection/works/78389",
+    "https://www.moma.org/collection/works/78908",
+    "https://agorha.inha.fr/ark:/54721/4bdb06b7-5a00-4017-bc08-745c9c87a1bc",
+    "https://fr.geneawiki.com/wiki/Henri_MATISSE"
+   ]
+  },
+  {
+   "slug": "cafe-de-versailles-place-de-rennes",
+   "file": "art/cafe-de-versailles-place-de-rennes.jpg",
+   "title": "PARIS - Autobus - Place de Rennes.jpg",
+   "licence": "Public domain",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:PARIS_-_Autobus_-_Place_de_Rennes.jpg",
+   "photographer_or_uploader_credit": "Scanné par Claude Shoshany"
+  },
+  {
+   "slug": "musee-bourdelle-herakles",
+   "file": "art/musee-bourdelle-herakles.jpg",
+   "title": "Paris 15e - Musée Bourdelle - Jardin sur rue - Héraklès archer, première grande étude, 1906-1909.jpg",
+   "licence": "CC0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Paris_15e_-_Musée_Bourdelle_-_Jardin_sur_rue_-_Héraklès_archer,_première_grande_étude,_1906-1909.jpg",
+   "photographer_or_uploader_credit": "Romainbehar"
+  },
+  {
+   "slug": "friesz-plaque",
+   "file": "art/friesz-plaque.jpg",
+   "title": "E. Othon-Friesz plaque - 73 rue de Notre-Dame des Champs, Paris 6.jpg",
+   "licence": "CC BY 2.0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:E._Othon-Friesz_plaque_-_73_rue_de_Notre-Dame_des_Champs,_Paris_6.jpg",
+   "photographer_or_uploader_credit": "Monceau from San Antonio"
+  },
+  {
+   "slug": "matisse-nu-bleu-iv-1952",
+   "file": "art/matisse-nu-bleu-iv-1952.jpg",
+   "title": "Henri Matisse, Nu bleu IV, Nice, 1952, Musée Matisse de Nice.jpg",
+   "licence": "CC BY-SA 4.0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Henri_Matisse,_Nu_bleu_IV,_Nice,_1952,_Musée_Matisse_de_Nice.jpg",
+   "photographer_or_uploader_credit": "Yair-haklai"
+  },
+  {
+   "slug": "matisse-composition-1947",
+   "file": "art/matisse-composition-1947.jpg",
+   "title": "Henri matisse, composizione in giallo, blu e nero, 1947.jpg",
+   "licence": "CC BY-SA 4.0",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Henri_matisse,_composizione_in_giallo,_blu_e_nero,_1947.jpg",
+   "photographer_or_uploader_credit": "Francesco Bini"
+  }
+ ]
+}
